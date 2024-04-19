@@ -1,0 +1,22 @@
+footer {
+    height: calc(100vh - (100vh - 100px));
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+}
+
+footer hr {
+    width: 100%;
+    border: none;
+    background-color: rgb(25, 23, 23);
+    padding: 1px;
+}
+
+.footer-img {
+    height: 78px;
+}
