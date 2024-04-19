@@ -1,0 +1,26 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(0, 2, 14);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-logo {
+    height: 100px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.nav-item a {
+    color: rgb(238, 235, 235);
+    font-weight: 600;
+}

@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Platypi', sans-serif;
+}
+
+section {
+    height: calc(100vh - 100px);
+    padding-top: 100px;
+}
